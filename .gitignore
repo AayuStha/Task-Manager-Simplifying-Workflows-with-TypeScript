@@ -1,0 +1,26 @@
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore TypeScript build output
+dist/
+*.js
+*.js.map
+
+# Ignore TypeScript config backups
+*.tsbuildinfo
+
+# Ignore IDE settings
+.vscode/
+.idea/
+
+# Ignore environment files
+.env
+
+# Ignore logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
